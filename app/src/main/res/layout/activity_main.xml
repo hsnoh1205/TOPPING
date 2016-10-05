@@ -4,74 +4,74 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.example.hsnoh.topping.MAIN">
 
     <TextView
-        android:text="Hello!"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2" />
+        android:text="Helo!" />
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/imageButton5"
-        android:src="@drawable/sound"
-        android:layout_below="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_below="@+id/textView2"
+        android:src="@drawable/sound" />
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/wordButton"
-        android:src="@drawable/word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignTop="@+id/sentenceButton"
+        android:layout_toEndOf="@+id/textView2"
         android:layout_toRightOf="@+id/textView2"
-        android:layout_toEndOf="@+id/textView2" />
+        android:src="@drawable/word" />
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/sentenceButton"
-        android:src="@drawable/sentence"
-        android:layout_marginTop="94dp"
-        android:layout_below="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/listeningButton"
         android:layout_alignRight="@+id/listeningButton"
-        android:layout_alignEnd="@+id/listeningButton" />
+        android:layout_below="@+id/imageButton5"
+        android:layout_marginTop="94dp"
+        android:src="@drawable/sentence" />
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/gameButton"
-        android:src="@drawable/game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignTop="@+id/listeningButton"
+        android:layout_toEndOf="@+id/textView2"
         android:layout_toRightOf="@+id/textView2"
-        android:layout_toEndOf="@+id/textView2" />
+        android:src="@drawable/game" />
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/listeningButton"
-        android:src="@drawable/listening"
-        android:layout_marginTop="54dp"
-        android:layout_below="@+id/sentenceButton"
-        android:layout_alignRight="@+id/imageButton5"
-        android:layout_alignEnd="@+id/imageButton5"
-        android:layout_marginRight="43dp"
-        android:layout_marginEnd="43dp" />
-
-    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageButton5"
+        android:layout_alignRight="@+id/imageButton5"
+        android:layout_below="@+id/sentenceButton"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp"
+        android:layout_marginTop="54dp"
+        android:src="@drawable/listening" />
+
+    <ImageButton
         android:id="@+id/imageButton6"
-        android:src="@drawable/stat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/gameButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="50dp"
+        android:src="@drawable/stat" />
 
 
 </RelativeLayout>
