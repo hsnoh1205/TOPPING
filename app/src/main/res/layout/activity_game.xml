@@ -10,31 +10,31 @@
     tools:context="com.example.hsnoh.topping.game">
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/imageButton13"
-        android:src="@drawable/rain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="119dp" />
+        android:layout_marginTop="119dp"
+        android:src="@drawable/rain" />
 
     <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/imageButton14"
-        android:src="@drawable/samepic"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton15"
-        android:src="@drawable/hangman"
-        android:layout_below="@+id/imageButton14"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="78dp" />
+        android:layout_centerVertical="true"
+        android:src="@drawable/samepic" />
+
+    <ImageButton
+        android:id="@+id/hangmanButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButton14"
+        android:layout_marginTop="78dp"
+        android:src="@drawable/hangman" />
 </RelativeLayout>

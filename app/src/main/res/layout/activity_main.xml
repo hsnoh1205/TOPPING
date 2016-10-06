@@ -14,7 +14,7 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Helo!" />
+        android:text="Hel!" />
     <ImageButton
         android:id="@+id/imageButton5"
         android:layout_width="wrap_content"

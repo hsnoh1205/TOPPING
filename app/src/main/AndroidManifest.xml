@@ -18,7 +18,9 @@
         <activity android:name=".word" />
         <activity android:name=".sentence" />
         <activity android:name=".game" />
-        <activity android:name=".listening"></activity>
+        <activity android:name=".listening" />
+        <activity android:name=".hangman" />
+        <activity android:name=".Splash"></activity>
     </application>
 
 </manifest>
